@@ -1,0 +1,108 @@
+PackratFormat: 1.4
+PackratVersion: 0.5.0
+RVersion: 3.6.1
+Repos: CRAN=https://cloud.r-project.org
+
+Package: R6
+Source: CRAN
+Version: 2.4.1
+Hash: b488861d8c3dfac497e041ec911df9fb
+
+Package: Rcpp
+Source: CRAN
+Version: 1.0.3
+Hash: 99f6a1855b2f9434e1399d565d2ed9df
+
+Package: RcppArmadillo
+Source: CRAN
+Version: 0.9.800.4.0
+Hash: 0c36597eece1763d4cd73b6334bd3e70
+Requires: Rcpp
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
+Package: digest
+Source: CRAN
+Version: 0.6.23
+Hash: 7ec748e53ca45166e0824224421529ad
+
+Package: ellipsis
+Source: CRAN
+Version: 0.3.0
+Hash: 30b58109e4d7c6184a9c2e32f9ae38c6
+Requires: rlang
+
+Package: glue
+Source: CRAN
+Version: 1.3.1
+Hash: 660bbbe3803c7cf7c9489a7d99a9c0ed
+
+Package: hms
+Source: CRAN
+Version: 0.5.3
+Hash: a0709e1b17b4bc1c27f5235177543e07
+Requires: pkgconfig, rlang, vctrs
+
+Package: owl
+Source: github
+Version: 0.1.1
+Hash: e230751195a3aa2ac2bedbdfb4f10027
+Requires: Rcpp, RcppArmadillo
+GithubRepo: owl
+GithubUsername: jolars
+GithubRef: master
+GithubSha1: 40113deaad454a996e5d8a9d5c41d7c56b0e8dfa
+RemoteHost: api.github.com
+RemoteRepo: owl
+RemoteUsername: jolars
+RemoteRef: master
+RemoteSha: 40113deaad454a996e5d8a9d5c41d7c56b0e8dfa
+
+Package: packrat
+Source: CRAN
+Version: 0.5.0
+Hash: 498643e765d1442ba7b1160a1df3abf9
+
+Package: pkgconfig
+Source: CRAN
+Version: 2.0.3
+Hash: 5ff5f2361851a49534c96caa2a8071c7
+
+Package: prettyunits
+Source: CRAN
+Version: 1.1.1
+Hash: 20669cd8bb8b3207f6371edf8cf510af
+
+Package: progress
+Source: CRAN
+Version: 1.2.2
+Hash: 209280eb751acf5899f7c69366e14bd3
+Requires: R6, crayon, hms, prettyunits
+
+Package: rdatasets
+Source: github
+Version: 0.0.0.9000
+Hash: 188f59c3b99011ca53d250c358956da5
+GithubRepo: rdatasets
+GithubUsername: jolars
+GithubRef: master
+GithubSha1: 96d6d450dab5765e245cb0cdc2bf1ccf37d45772
+RemoteHost: api.github.com
+RemoteRepo: rdatasets
+RemoteUsername: jolars
+RemoteRef: master
+RemoteSha: 96d6d450dab5765e245cb0cdc2bf1ccf37d45772
+
+Package: rlang
+Source: CRAN
+Version: 0.4.4
+Hash: 4b627f82e4297bd5bf82a5cb065bbe4a
+
+Package: vctrs
+Source: CRAN
+Version: 0.2.2
+Hash: 6a0e82b8dac8abd93ea0ce8adc996986
+Requires: digest, ellipsis, glue, rlang
